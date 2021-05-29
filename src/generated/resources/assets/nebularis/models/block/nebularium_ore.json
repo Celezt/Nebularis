@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "nebularis:block/crustose_lichen_stone"
+    "all": "nebularis:block/nebularium_ore"
   }
 }

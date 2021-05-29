@@ -18,10 +18,12 @@ public class ModItemTagsProvider extends ItemTagsProvider {
     
     @Override
     protected void addTags() {
-        copy(ModTags.Blocks.ORES_CRUSTOSE_LICHER, ModTags.Items.ORES_CRUSTOSE_LICHER);
+        copy(ModTags.Blocks.ORES_NEBULARIUM, ModTags.Items.ORES_NEBULARIUM);
         copy(Tags.Blocks.ORES, Tags.Items.ORES);
+        copy(ModTags.Blocks.STORAGE_BLOCKS_NEBULARIUM, ModTags.Items.STORAGE_BLOCKS_NEBULARIUM);
+        copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
 
-        tag(ModTags.Items.RAW_CRUSTOSE_LICHER).add(ModItems.RAW_CRUSTOSE_LICHEN.get());
-        tag(Tags.Items.INGOTS).addTag(ModTags.Items.RAW_CRUSTOSE_LICHER);
+        tag(ModTags.Items.RAW_NEBULARIUM).add(ModItems.RAW_NEBULARIUM.get());
+        tag(Tags.Items.INGOTS).addTag(ModTags.Items.RAW_NEBULARIUM);
     }
 }

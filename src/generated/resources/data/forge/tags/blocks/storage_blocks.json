@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "nebularis:crustose_lichen_stone"
+    "#forge:ores/nebularium"
   ]
 }

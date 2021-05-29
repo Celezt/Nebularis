@@ -1,4 +1,5 @@
 {
-    "block.nebularis.crustose_lichen_stone": "Crustose Lichen Stone",
-    "item.nebularis.raw_crustose_lichen": "Raw Crustose Lichen"
+    "block.nebularis.nebularium_ore": "Nebularium Ore",
+    "block.nebularis.nebularium_block": "Block of Nebularium",
+    "item.nebularis.raw_nebularium": "Raw Nebularium"
 }

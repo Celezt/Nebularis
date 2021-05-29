@@ -12,16 +12,16 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     public ModItemModelProvider(DataGenerator generator, ExistingFileHelper existingFileHelper) {
         super(generator, NebularisMod.MOD_ID, existingFileHelper);
-
     }
 
     @Override
     protected void registerModels() {
-        withExistingParent("crustose_lichen_stone", modLoc("block/crustose_lichen_stone"));
+        withExistingParent("nebularium_block", modLoc("block/nebularium_block"));
+        withExistingParent("nebularium_ore", modLoc("block/nebularium_ore"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
-        builder(itemGenerated, "raw_crustose_lichen");
+        builder(itemGenerated, "raw_nebularium");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name){

@@ -15,6 +15,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(ModBlocks.CRUSTOSE_LICHEN_STONE.get());
+        simpleBlock(ModBlocks.NEBULARIUM_ORE.get());
+        simpleBlock(ModBlocks.NEBULARIUM_BLOCK.get());
     }  
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "nebularis:item/raw_crustose_lichen"
+    "layer0": "nebularis:item/raw_nebularium"
   }
 }
