@@ -12,10 +12,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModBlocks {
-    public static final RegistryObject<Block> SILVER_ORE = register("silver_ore", () ->
+    public static final RegistryObject<Block> CRUSTOSE_LICHEN_STONE = register("crustose_lichen_stone", () ->
         new Block(AbstractBlock.Properties.of(Material.STONE).strength(3, 10).harvestLevel(2).sound(SoundType.STONE)));
-    public static final RegistryObject<Block> SILVER_BLOCK = register("silver_block", () ->
-        new Block(AbstractBlock.Properties.of(Material.METAL).strength(3, 10).sound(SoundType.METAL)));
 
     public static void register() {}
 

@@ -11,8 +11,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class ModTags {
     public static final class Blocks{
-        public static final ITag.INamedTag<Block> ORES_SILVER = forge("ores/silver");
-        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_SILVER = forge("storage_blocks/silver");
+        public static final ITag.INamedTag<Block> ORES_CRUSTOSE_LICHER = forge("ores/crustose_licher");
 
         private static ITag.INamedTag<Block> forge(String path){
             return BlockTags.bind(new ResourceLocation("forge", path).toString());
@@ -24,10 +23,9 @@ public class ModTags {
     }
 
     public static final class Items{
-        public static final ITag.INamedTag<Item> ORES_SILVER = forge("ores/silver");
-        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_SILVER = forge("storage_blocks/silver");
+        public static final ITag.INamedTag<Item> ORES_CRUSTOSE_LICHER = forge("ores/crustose_licher");
 
-        public static final ITag.INamedTag<Item> INGOT_SILVER = forge("ingots/silver");
+        public static final ITag.INamedTag<Item> RAW_CRUSTOSE_LICHER = forge("ingots/crustose_licher");
 
         private static ITag.INamedTag<Item> forge(String path){
             return ItemTags.bind(new ResourceLocation("forge", path).toString());

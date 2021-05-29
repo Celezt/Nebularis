@@ -17,12 +17,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        withExistingParent("silver_block", modLoc("block/silver_block"));
-        withExistingParent("silver_ore", modLoc("block/silver_ore"));
+        withExistingParent("crustose_lichen_stone", modLoc("block/crustose_lichen_stone"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
-        builder(itemGenerated, "silver_ingot");
+        builder(itemGenerated, "raw_crustose_lichen");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name){

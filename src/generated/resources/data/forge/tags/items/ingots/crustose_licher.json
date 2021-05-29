@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#forge:storage_blocks/silver"
+    "nebularis:raw_crustose_lichen"
   ]
 }
