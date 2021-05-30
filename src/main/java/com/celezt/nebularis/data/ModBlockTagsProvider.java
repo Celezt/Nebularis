@@ -18,7 +18,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     protected void addTags() {
         tag(ModTags.Blocks.ORES_NEBULARIUM).add(ModBlocks.NEBULARIUM_ORE.get());
         tag(Tags.Blocks.ORES).addTag(ModTags.Blocks.ORES_NEBULARIUM);
-        tag(ModTags.Blocks.STORAGE_BLOCKS_NEBULARIUM).add(ModBlocks.NEBULARIUM_BLOCK.get());
-        tag(Tags.Blocks.STORAGE_BLOCKS).addTag(ModTags.Blocks.STORAGE_BLOCKS_NEBULARIUM);
+        tag(ModTags.Blocks.STORAGE_BLOCKS_RAW_NEBULARIUM).add(ModBlocks.RAW_NEBULARIUM_BLOCK.get());
+        tag(Tags.Blocks.STORAGE_BLOCKS).addTag(ModTags.Blocks.STORAGE_BLOCKS_RAW_NEBULARIUM);
     }
 }

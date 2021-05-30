@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nebularis:raw_nebularium_block"
+    }
+  ],
+  "result": {
+    "item": "nebularis:raw_nebularium",
+    "count": 4
+  }
+}

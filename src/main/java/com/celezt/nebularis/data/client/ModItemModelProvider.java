@@ -16,7 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        withExistingParent("nebularium_block", modLoc("block/nebularium_block"));
+        withExistingParent("raw_nebularium_block", modLoc("block/raw_nebularium_block"));
         withExistingParent("nebularium_ore", modLoc("block/nebularium_ore"));
 
         ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));

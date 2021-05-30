@@ -12,7 +12,7 @@ import net.minecraft.util.ResourceLocation;
 public class ModTags {
     public static final class Blocks{
         public static final ITag.INamedTag<Block> ORES_NEBULARIUM = forge("ores/nebularium");
-        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_NEBULARIUM = forge("ores/nebularium");
+        public static final ITag.INamedTag<Block> STORAGE_BLOCKS_RAW_NEBULARIUM = forge("ores/nebularium");
 
         private static ITag.INamedTag<Block> forge(String path){
             return BlockTags.bind(new ResourceLocation("forge", path).toString());
@@ -25,7 +25,7 @@ public class ModTags {
 
     public static final class Items{
         public static final ITag.INamedTag<Item> ORES_NEBULARIUM = forge("ores/nebularium");
-        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_NEBULARIUM = forge("ores/nebularium");
+        public static final ITag.INamedTag<Item> STORAGE_BLOCKS_RAW_NEBULARIUM = forge("ores/nebularium");
 
         public static final ITag.INamedTag<Item> RAW_NEBULARIUM = forge("ingots/nebularium");
 

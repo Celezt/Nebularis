@@ -14,13 +14,16 @@ import net.minecraftforge.fml.RegistryObject;
 public class ModBlocks {
     public static final RegistryObject<Block> NEBULARIUM_ORE = register("nebularium_ore", () ->
         new Block(AbstractBlock.Properties.of(Material.STONE)
-            .strength(3, 10).harvestLevel(2)
+            .strength(3, 10)
+            .harvestLevel(2)
+            .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> NEBULARIUM_BLOCK = register("nebularium_block", () ->
+    public static final RegistryObject<Block> RAW_NEBULARIUM_BLOCK = register("raw_nebularium_block", () ->
         new Block(AbstractBlock.Properties.of(Material.METAL)
             .strength(4, 20)
             .harvestLevel(2)
+            .requiresCorrectToolForDrops()
             .sound(SoundType.METAL)));
 
     public static void register() {}

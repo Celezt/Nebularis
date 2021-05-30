@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nebularis:block/raw_nebularium_block"
+    }
+  }
+}

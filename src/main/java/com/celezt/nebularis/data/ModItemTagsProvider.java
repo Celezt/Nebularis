@@ -20,7 +20,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
     protected void addTags() {
         copy(ModTags.Blocks.ORES_NEBULARIUM, ModTags.Items.ORES_NEBULARIUM);
         copy(Tags.Blocks.ORES, Tags.Items.ORES);
-        copy(ModTags.Blocks.STORAGE_BLOCKS_NEBULARIUM, ModTags.Items.STORAGE_BLOCKS_NEBULARIUM);
+        copy(ModTags.Blocks.STORAGE_BLOCKS_RAW_NEBULARIUM, ModTags.Items.STORAGE_BLOCKS_RAW_NEBULARIUM);
         copy(Tags.Blocks.STORAGE_BLOCKS, Tags.Items.STORAGE_BLOCKS);
 
         tag(ModTags.Items.RAW_NEBULARIUM).add(ModItems.RAW_NEBULARIUM.get());

@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "nebularis:nebularium_ore",
-    "nebularis:nebularium_block",
+    "nebularis:raw_nebularium_block",
     "nebularis:nebularium_ore",
-    "nebularis:nebularium_block"
+    "nebularis:raw_nebularium_block"
   ]
 }

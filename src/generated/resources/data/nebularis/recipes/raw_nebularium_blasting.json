@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "nebularis:nebularium_ore"
+  },
+  "result": "nebularis:raw_nebularium",
+  "experience": 0.7,
+  "cookingtime": 100
+}
